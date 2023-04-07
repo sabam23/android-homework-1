@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textSize="30sp"
+        android:layout_marginBottom="35dp"
+        android:textColor="@color/header_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textStyle="bold"
+        android:id="@+id/fb_button"
+        android:textSize="18sp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:textColor="#4d537e"
+        android:background="@drawable/button_custom"
+        android:layout_marginBottom="20dp"
+        android:text="@string/facebook" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textStyle="bold"
+        android:id="@+id/google_button"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:textColor="#4d537e"
+        android:background="@drawable/button_custom"
+        android:text="@string/google" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:paddingStart="30sp"
+        android:paddingEnd="0sp"
+        android:background="@drawable/edit_text_border"
+        android:id="@+id/nameEditText"
+        android:layout_marginBottom="20dp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:autofillHints="Name"
+        android:textColorHint="#a4abb6"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:paddingStart="30sp"
+        android:paddingEnd="0sp"
+        android:background="@drawable/edit_text_border"
+        android:id="@+id/emailEditText"
+        android:layout_marginBottom="20dp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:autofillHints="Email"
+        android:textColorHint="#a4abb6"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:paddingStart="30sp"
+        android:paddingEnd="0sp"
+        android:background="@drawable/edit_text_border"
+        android:id="@+id/passwordEditText"
+        android:layout_marginBottom="20dp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:autofillHints="Password"
+        android:textColorHint="#a4abb6"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:textColorHint="#a4abb6"
+        android:paddingStart="30sp"
+        android:paddingEnd="0sp"
+        android:background="@drawable/edit_text_border"
+        android:id="@+id/phoneEditText"
+        android:layout_marginBottom="20dp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:autofillHints="Password" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_button"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:layout_width="250dp"
+        android:textStyle="bold"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/register_button"
+        android:text="@string/register" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
