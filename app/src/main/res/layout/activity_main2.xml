@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity2"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/image"
+        android:src="@mipmap/ic_image_round"
+        android:layout_marginBottom="50dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_vehicle"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@color/header_color"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textSize="21sp"
+        android:textColor="#3e4d82"
+        android:text="This information will help"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#3e4d82"
+        android:text="us provide the most"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:layout_marginBottom="45dp"
+        android:textColor="#3e4d82"
+        android:text="relevant data"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_button"
+        android:layout_marginBottom="100dp"
+        android:textSize="18sp"
+        android:layout_width="260dp"
+        android:textStyle="bold"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/register_button"
+        android:text="@string/add" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:layout_width="130dp"
+        android:layout_gravity="end"
+        android:textStyle="bold"
+        android:layout_height="55dp"
+        android:textColor="#4e5b85"
+        android:background="@drawable/button_custom"
+        android:text="@string/skip" />
+</androidx.appcompat.widget.LinearLayoutCompat>
